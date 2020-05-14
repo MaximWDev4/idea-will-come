@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - BadMushroom
+  - coin
+  - obstacles
+  - GoodMushroom
   layers:
   - Default
   - TransparentFX
@@ -17,8 +21,8 @@ TagManager:
   - ground
   - player
   - obstacles
-  - 
-  - 
+  - frontground
+  - frontgroundisground
   - 
   - 
   - 
