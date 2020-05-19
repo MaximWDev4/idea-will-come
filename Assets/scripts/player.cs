@@ -14,6 +14,7 @@ public class player : MonoBehaviour
     public Text score;
     public Text GameOverText;
     public int coins = 0;
+    private GameObject go;
     void OnTriggerEnter2D(Collider2D col) {
 
         //obstacles
@@ -50,11 +51,12 @@ public class player : MonoBehaviour
     {
         Destroy(playerCapsule);
         GameOverText.text = "Game Over!";
+        go = GameObject.FindGameObjectWithTag("Creator");
+        go.GetComponent<ButtonCreator>().CreateButton();
     }
 
     void ChangeSprite(SpriteRenderer Object, Sprite NewSprite){
 
         Object.sprite = NewSprite;
-
     }
 }

@@ -7,11 +7,8 @@ public class ButtonCreator : MonoBehaviour
 {
     public Canvas canvas;
     public Font newFont;
-   
-   void Start(){
-       CreateButton();
-   }
-    void CreateButton(){
+
+    public void CreateButton(){
         GameObject newButton = new GameObject("New Button", typeof(Image), typeof(Button));
         newButton.transform.SetParent(canvas.transform);
         GameObject newText = new GameObject("New Text", typeof(Text));
@@ -23,7 +20,7 @@ public class ButtonCreator : MonoBehaviour
         rt.anchorMax = new Vector2(1, 1);
         rt.anchoredPosition = new Vector2(0, 0);
         rt.sizeDelta = new Vector2(0, 0);
-        rt.position = new Vector3(0, -90, 0);
+        newButton.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -150);
         newText.GetComponent<Text>().color = new Color(0, 0, 0);
         newText.GetComponent<Text>().alignment = TextAnchor.MiddleCenter;
         newButton.GetComponent<Button>().onClick.AddListener(delegate { restart(); });

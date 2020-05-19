@@ -568,32 +568,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 840569743}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &505579924 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8158339964348449591, guid: 3ae85a40f3f1c2a499a7db4feee9426c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4964384018426179566}
-  m_PrefabAsset: {fileID: 0}
---- !u!223 &505579927 stripped
-Canvas:
-  m_CorrespondingSourceObject: {fileID: 8158339964348449546, guid: 3ae85a40f3f1c2a499a7db4feee9426c,
-    type: 3}
-  m_PrefabInstance: {fileID: 4964384018426179566}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &505579929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505579924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a2fcfdd747b4c347bb44ba751fadf45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canvas: {fileID: 505579927}
-  newFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &544160747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1676,51 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1797330179}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1795194706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1795194708}
+  - component: {fileID: 1795194707}
+  m_Layer: 0
+  m_Name: Creator
+  m_TagString: Creator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1795194707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795194706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2fcfdd747b4c347bb44ba751fadf45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  newFont: {fileID: 0}
+--- !u!4 &1795194708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795194706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.725739, y: -3.179462, z: -288.8523}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1797330178
