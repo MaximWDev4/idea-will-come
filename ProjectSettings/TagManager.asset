@@ -8,6 +8,7 @@ TagManager:
   - coin
   - obstacles
   - GoodMushroom
+  - Creator
   layers:
   - Default
   - TransparentFX
