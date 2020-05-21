@@ -13,7 +13,7 @@ public class ButtonCreator : MonoBehaviour
         newButton.transform.SetParent(canvas.transform);
         GameObject newText = new GameObject("New Text", typeof(Text));
         newText.transform.SetParent(newButton.transform);
-        newText.GetComponent<Text>().text = "New Button";
+        newText.GetComponent<Text>().text = "Заново";
         newText.GetComponent<Text>().font = newFont;
         RectTransform rt = newText.GetComponent<RectTransform>();
         rt.anchorMin = new Vector2(0, 0);
