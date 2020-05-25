@@ -17025,6 +17025,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8135931371380418676}
     m_Modifications:
+    - target: {fileID: 3881317892008990754, guid: 9204e15e7a2db6d48b455569e5b19425,
+        type: 3}
+      propertyPath: m_Text
+      value: Game Over!
+      objectReference: {fileID: 0}
     - target: {fileID: 3881317893163154076, guid: 9204e15e7a2db6d48b455569e5b19425,
         type: 3}
       propertyPath: m_Name
@@ -17234,6 +17239,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 315765877780477611, guid: d86197fffc74f2a45a02b44cdba8b376,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51080651102f7dd4886add940ac74d78,
+        type: 3}
+    - target: {fileID: 315765878612223789, guid: d86197fffc74f2a45a02b44cdba8b376,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51080651102f7dd4886add940ac74d78,
+        type: 3}
+    - target: {fileID: 315765879022762570, guid: d86197fffc74f2a45a02b44cdba8b376,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 51080651102f7dd4886add940ac74d78,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d86197fffc74f2a45a02b44cdba8b376, type: 3}
 --- !u!212 &8583902894238100668 stripped

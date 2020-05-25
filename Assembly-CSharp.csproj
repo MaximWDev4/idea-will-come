@@ -91,6 +91,7 @@
      <Compile Include="Assets\scripts\ButtonCreator.cs" />
      <Compile Include="Assets\scripts\CharacterController2D.cs" />
      <Compile Include="Assets\scripts\Enemy.cs" />
+     <Compile Include="Assets\scripts\GraphicsController.cs" />
      <Compile Include="Assets\scripts\LevelsButton.cs" />
      <Compile Include="Assets\scripts\Loader.cs" />
      <Compile Include="Assets\scripts\LoaderCallback.cs" />
