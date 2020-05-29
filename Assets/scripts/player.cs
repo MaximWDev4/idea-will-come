@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
+    public ButtonCreator buttonCreator;
     public CharacterController2D controller;
     public playerMovement movement;
     public GameObject playerCapsule;
@@ -15,6 +16,7 @@ public class player : MonoBehaviour
     public Text GameOverText;
     public int coins = 0;
     private GameObject go;
+
     void OnTriggerEnter2D(Collider2D col) {
 
         //obstacles
@@ -42,8 +44,13 @@ public class player : MonoBehaviour
             controller.m_JumpForce = 600f;
             ChangeSprite(spriteRenderer[0], NormalSprite);
             ChangeSprite(spriteRenderer[1], NormalSprite);
-            ChangeSprite(spriteRenderer[2], NormalSprite);
+            ChangeSprite(spriteRenderer[2], NormalSprite);   
 
+        }
+        
+        if (col.gameObject.tag == "finish"){
+            GameOverText.text = "Finish";
+            buttonCreator.pause();
         }
     }
     
@@ -51,8 +58,7 @@ public class player : MonoBehaviour
     {
         Destroy(playerCapsule);
         GameOverText.text = "Game Over!";
-        go = GameObject.FindGameObjectWithTag("Creator");
-        go.GetComponent<ButtonCreator>().CreateButton();
+        buttonCreator.pause();
     }
 
     void ChangeSprite(SpriteRenderer Object, Sprite NewSprite){

@@ -9,6 +9,7 @@ TagManager:
   - obstacles
   - GoodMushroom
   - Creator
+  - finish
   layers:
   - Default
   - TransparentFX

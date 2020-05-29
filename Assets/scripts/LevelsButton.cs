@@ -15,7 +15,7 @@ public class LevelsButton : MonoBehaviour {
     }
 
     public void Quit() {
-            Application.Quit();
+        Application.Quit();
     }
 
     public void GoToLevel(){
